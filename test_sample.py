@@ -18,7 +18,7 @@ class FirstSampleTest(unittest.TestCase):
             "version": '47'
         }
         self.driver = webdriver.Remote(
-           command_executor="http://{}:{}@ondemand.saucelabs.com:80/wd/hub".format(username, access_key),
+           command_executor="http://{}:{}@ondemand.saucelabs.com/wd/hub".format(username, access_key),
            desired_capabilities= desired_caps)
 
     # verify google title
