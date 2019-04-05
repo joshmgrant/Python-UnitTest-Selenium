@@ -27,24 +27,16 @@ This code is provided on an "AS-IS” basis without warranty of any kind, either
 
 Tests in Series: One of
        ```
-       $ python test_sample.py
-       ```
-or 
-       ```
-       $ nosetests test_sample.py
+       $ python test_demo.py
        ```
 or
        ```
-       $ pytest test_sample.py
+       $ pytest
        ```
 
-Tests in Parallel: One of
+Tests in Parallel: Using pytest, run
 	```
-	nosetests --processes=2 --process-timeout=120
-	```
-or
-	```
-	pytest -n2
+	pytest -n 4
 	```
 
 [Sauce Labs Dashboard](https://saucelabs.com/beta/dashboard/)

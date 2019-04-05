@@ -1,4 +1,4 @@
-selenium>2.5
+selenium>3.4.0
 sauceclient
 pytest
 nose
